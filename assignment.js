@@ -37,7 +37,7 @@ function budgetCalculator(watch, mobile, laptop){
      watchPrice= watch * 50;
      mobilePrice = mobile * 100;
     laptopPrice = laptop * 500;
-return watchPrice + mobilePrice + laptopPrice;    
+return watchPrice + mobilePrice + laptopPrice;
 }
 
 // const result = budgetCalculator(7, 3, 2);
@@ -47,8 +47,7 @@ var friends = ["Jamal", "abdul kader", "jalil", "abu-sukkur", "jankar borovai"];
 
 function megaFriend(friends){
     var largeName = friends[0];
-
-    for(var i = 0; i<friends.length; i++){
+         for(var i = 0; i<friends.length; i++){
         var element = friends[i];
         if(element.length > largeName.length) {
             largeName = element;
