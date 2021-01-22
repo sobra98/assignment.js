@@ -1,3 +1,5 @@
+// https://github.com/sobra98/assignment.js
+
 function hotelCost(spentDays){
     var hotelCost = 0;
 if(spentDays <= 10){
@@ -32,8 +34,8 @@ function kilometerToMeter(oneKm){
 // console.log(resultMeter);
 
 function budgetCalculator(watch, mobile, laptop){
-     watchPrice= watch * 100;
-     mobilePrice = mobile * 300;
+     watchPrice= watch * 50;
+     mobilePrice = mobile * 100;
     laptopPrice = laptop * 500;
 return watchPrice + mobilePrice + laptopPrice;    
 }
