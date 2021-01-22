@@ -31,5 +31,14 @@ function kilometerToMeter(oneKm){
 // var resultMeter = kilometerToMeter(5);
 // console.log(resultMeter);
 
+function budgetCalculator(watch, mobile, laptop){
+     watchPrice= watch * 100;
+     mobilePrice = mobile * 300;
+    laptopPrice = laptop * 500;
+return watchPrice + mobilePrice + laptopPrice;    
+}
+
+// const result = budgetCalculator(7, 3, 2);
+// console.log(result);
 
 
