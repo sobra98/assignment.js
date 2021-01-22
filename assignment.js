@@ -41,4 +41,18 @@ return watchPrice + mobilePrice + laptopPrice;
 // const result = budgetCalculator(7, 3, 2);
 // console.log(result);
 
+var friends = ["Jamal", "abdul kader", "jalil", "abu-sukkur", "jankar borovai"];
 
+function megaFriend(friends){
+    var largeName = friends[0];
+
+    for(var i = 0; i<friends.length; i++){
+        var element = friends[i];
+        if(element.length > largeName.length) {
+            largeName = element;
+        }
+      }
+    return largeName;
+}
+// var result = megaFriend(friends);
+// console.log(result);
