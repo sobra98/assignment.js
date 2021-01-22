@@ -20,5 +20,16 @@ else{
 }
 return hotelCost;
 }
+// var totalcost = hotelCost(24);
+// console.log(totalcost);
+
+
+function kilometerToMeter(oneKm){
+    var meter = oneKm* 1000;
+    return meter;
+}
+// var resultMeter = kilometerToMeter(5);
+// console.log(resultMeter);
+
 
 
